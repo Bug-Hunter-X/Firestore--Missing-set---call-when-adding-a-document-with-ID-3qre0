@@ -1,0 +1,1 @@
+The corrected code uses the `set()` method to add a document with a specified ID to Firestore.  This ensures that the document is correctly written to the database.  The `set()` method takes the document data as an argument and merges the data with any existing document at the specified path.
